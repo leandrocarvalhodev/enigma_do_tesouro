@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-image: url(img/background-1.png);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin: 50px auto 10px auto;
+}
+
+.texto{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.palavra-secreta{
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.tesouro, .tesouro-aberto{
+    display:flex;
+    justify-content: space-around;
+}
+
+.secao-botoes{
+    display: flex;
+    
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.listaDeBotoes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    border-radius: 40px;
+    padding: 15px;
+    justify-content: space-evenly;
+    background-image: url(img/textura-300.jpg);
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    background-color: #efdfc7;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;  
+}
+
+.enviar, .jogar-novamente{
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    background-image: url(img/textura-prata-enviar.png);
+    background-position: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sequencia-errada{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.formulario{
+    display:none;
+    margin: 5px auto;
+    justify-content: center;   
+}
+
+.enviar-palavra{
+    padding: 5px;
+    background-image: url(img/textura-prata-enviar.png);
+    background-position: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+span{
+    color:rgba(0, 0, 0, 0.719);
+}
+
+/* Página do tesouro aberto */
+
+.tesouro-aberto {
+    animation: zoomInOutAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomInOutAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.voltar {
+    margin: 20px 0 20px 0;
+}
+
+.voltar a{
+    text-decoration: none;
+}
+
+.link-instagram {
+   display: flex;
+   gap: 5px;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   
+}
+
+.link-instagram a{
+    color:brown;
+}
+
+
+@media (max-width: 480px) {
+    .listaDeBotoes{
+        width:250px;
+        gap:10px;
+    }
+    
+}

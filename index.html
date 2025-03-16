@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma do Tesouro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/png">
+</head>
+<body>
+    <main class="principal">
+        <h1 class="titulo-principal">Encontre a palavra secreta para abrir o baú</h1>
+        <p class="texto">
+            "Um viajante do futuro lacrou este baú e para abri-lo é necessário usar um código <br>usado em seu tempo presente, depois disso a palavra secreta será revelada,<br> mas para que isso aconteça, o primeiro passo é olhar para dentro de voCê."
+        </p>
+        <h2 class="palavra-secreta" id="palavra-secreta">GBCLWGABCVLKARBEYAIRSDZ</h2>
+
+        <div class ="tesouro">
+            <img src="img/tesouro-400.png" alt="bau de tesouro fechado">
+        </div>
+        
+    <section class="secao-botoes">
+        <div class="listaDeBotoes">
+            <button class="btn" id="bot1"></button>
+            <button class="btn" id="bot2"></button>
+            <button class="btn" id="bot3"></button>
+            <button class="btn" id="bot4"></button>
+            <button class="btn" id="bot5"></button>
+            <button class="btn" id="bot6"></button>
+            <button class="btn" id="bot7"></button>
+            <button class="btn" id="bot8"></button>
+        </div>
+    </section>
+
+    <section>
+        <input type="button" value="Enviar código" class="enviar" id="enviar">
+        <p class="sequencia-errada" id="sequencia-errada"></p>
+    </section>
+
+    <form class="formulario" id="formulario">
+        <input class="input-palavra" id="input-palavra" type="text" placeholder="Digite a palavra aqui">
+        <input type="button" value="Enviar palavra" class="enviar-palavra" id="enviar-palavra">
+    </form>
+    </main>
+</body>
+
+<script src="main.js"></script>
+<!-- <script src="mudaCor.js"></script> -->
+</html>
