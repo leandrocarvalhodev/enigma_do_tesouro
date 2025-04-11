@@ -1,11 +1,46 @@
-Enigma do Tesouro
+# 🏴‍☠️ Enigma do Tesouro
 
-Neste projeto é proposto um jogo de enigmas. O jogador precisa ler a mensagem e através dela conseguir desvendar o código secreto, que é uma sequência correta de moedas.
-Nos espaços das moedas, é possível escolher colocar moedas de prata ou ouro.
+**Enigma do Tesouro** é um jogo de enigmas desenvolvido como projeto pessoal, com o objetivo de praticar conceitos de **JavaScript**, como uso de listas, `JSON.stringify()` e manipulação do DOM.
 
-Depois de preencher os espaços com as moedas, o jogador clica em "enviar código", caso esteja correto, uma palavra secreta será revelada nas letras embaralhadas.
-Com essa palavra é possível passar de fase e outra página é aberta com uma mensagem de parabéns e a imagem do tesouro aberto. 
+---
 
-Caso a sequência de moedas esteja errada, aparecerá uma mensagem de "tente novamente".
+## 🔍 Sobre o jogo
 
-Dica para o enigma: "binário".
+Neste desafio, o jogador recebe uma mensagem misteriosa e precisa usá-la para descobrir um **código secreto**, representado por uma sequência correta de moedas de **prata** ou **ouro**.
+
+🧩 O jogador deve:
+
+1. Escolher as moedas nos espaços disponíveis.
+2. Clicar em **"Enviar código"** para verificar a resposta.
+
+✅ Se a sequência estiver correta:
+- Uma **palavra secreta** será revelada com letras embaralhadas.
+- O jogador deve descobrir a palavra para **avançar de fase**.
+- Uma nova página será exibida com uma **mensagem de parabéns** e a **imagem do tesouro aberto**.
+
+❌ Se a sequência estiver incorreta:
+- Uma mensagem de **"Tente novamente"** será exibida.
+
+💡 **Dica para o enigma:** _binário_
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 🎯 Conceitos praticados
+
+- Manipulação de DOM
+- Estruturas condicionais
+- Listas e Arrays
+- Serialização de dados com `JSON.stringify()`
+- Lógica de jogos com validação
+
+---
+
+💬 Esse projeto é ideal para quem curte desafios lógicos e quer aplicar conhecimentos de programação de forma criativa!
